@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57c71d65-ed3c-4f0c-8c9d-f72c1b79b759" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutsite.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutsite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailform.html" beforeDir="false" afterPath="$PROJECT_DIR$/mailform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypage.html" beforeDir="false" afterPath="$PROJECT_DIR$/mypage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypage_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/mypage_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_001.html" beforeDir="false" afterPath="$PROJECT_DIR$/news_001.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/news_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reissue.html" beforeDir="false" afterPath="$PROJECT_DIR$/reissue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/talk_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/talk_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/talk_room_001.html" beforeDir="false" afterPath="$PROJECT_DIR$/talk_room_001.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top.html" beforeDir="false" afterPath="$PROJECT_DIR$/top.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/trade_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade_register.html" beforeDir="false" afterPath="$PROJECT_DIR$/trade_register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/withdrawal.html" beforeDir="false" afterPath="$PROJECT_DIR$/withdrawal.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ciYBUSOs9KCvUijT2gLH1yf3Hi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57c71d65-ed3c-4f0c-8c9d-f72c1b79b759" name="Default Changelist" comment="" />
+      <created>1591012745414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591012745414</updated>
+      <workItem from="1591012746992" duration="759000" />
+      <workItem from="1591187100636" duration="132000" />
+      <workItem from="1591187783077" duration="1632000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="339" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1591187897773">
+      <screen x="0" y="23" width="1321" height="745" />
+    </state>
+    <state x="339" y="228" key="com.intellij.ide.util.TipDialog/0.23.1321.745@0.23.1321.745" timestamp="1591187897773" />
+  </component>
+</project>
