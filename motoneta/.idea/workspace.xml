@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57c71d65-ed3c-4f0c-8c9d-f72c1b79b759" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bid_detail_001.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bid_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutsite.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutsite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailform.html" beforeDir="false" afterPath="$PROJECT_DIR$/mailform.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mypage.html" beforeDir="false" afterPath="$PROJECT_DIR$/mypage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mypage_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/mypage_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news_001.html" beforeDir="false" afterPath="$PROJECT_DIR$/news_001.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/news_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reissue.html" beforeDir="false" afterPath="$PROJECT_DIR$/reissue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/talk_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/talk_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/talk_room_001.html" beforeDir="false" afterPath="$PROJECT_DIR$/talk_room_001.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top.html" beforeDir="false" afterPath="$PROJECT_DIR$/top.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trade_detail_001.html" beforeDir="false" afterPath="$PROJECT_DIR$/trade_detail_001.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trade_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/trade_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trade_register.html" beforeDir="false" afterPath="$PROJECT_DIR$/trade_register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/withdrawal.html" beforeDir="false" afterPath="$PROJECT_DIR$/withdrawal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +65,7 @@
       <workItem from="1591187783077" duration="1632000" />
       <workItem from="1591208861143" duration="1325000" />
       <workItem from="1591210555657" duration="933000" />
+      <workItem from="1591349721359" duration="588000" />
     </task>
     <servers />
   </component>
