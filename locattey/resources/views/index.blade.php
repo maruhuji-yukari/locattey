@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>物々交換サイト | ロケッティ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/092d431054.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="header">
+    <div class="titleArea">
+        <h1 class="header_title"><a href="top.html">ロケッティ</a></h1>
+        <h2 class="header_subtitle">要らないものをみんなで交換するサイト</h2>
+    </div>
+    <div class="searchArea">
+        <form action="" class="searchArea_form">
+            <input type="text" class="searchArea_input" name="search_word"><i class="searchArea_icon fas fa-search"></i>
+            <input type="submit" class="searchArea_submit">
+        </form>
+    </div>
+</div>
+<div class="menu-trigger js-toggle-sp-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<div class="nav-menu js-toggle-sp-menu-target">
+    <ul class="nav-menu_list js-toggle-sp-menu-target">
+        <li class="nav-menu_item"><a href="top.html" class="nav-menu_link"><span>TOP</span></a></li>
+        <li class="nav-menu_item"><a href="news_list.html" class="nav-menu_link"><span>お知らせ</span></a></li>
+        <li class="nav-menu_item"><a href="trade_register.html" class="nav-menu_link"><span>出品したい</span></a></li>
+        <li class="nav-menu_item"><a href="register.html" class="nav-menu_link"><span>新規登録</span></a></li>
+        <li class="nav-menu_item"><a href="login.html" class="nav-menu_link"><span>ログイン</span></a></li>
+    </ul>
+</div>
+<div class="main">
+    <div class="main_content">
+        <h3 class="news_title js-float-menu-target"><i class="fas fa-external-link-alt" aria-hidden="true"></i> 新着情報</h3>
+        <div class="news">
+            <div class="section">
+                <img src="img/item001.jpeg" alt="" class="section_img">
+                <p class="section_product-name"><a href="trade_detail_001.html">トースター譲ります</a></p>
+                <p class="section_product-text">パンを食べる機会がなくなりました。引き取り手を探しています。</p>
+                <span class="section_category-name"><i class="far fa-folder" aria-hidden="true"></i> 家電</span>
+            </div>
+            <div class="section">
+                <img src="img/item003.jpeg" alt="" class="section_img">
+                <p class="section_product-name">18型テレビ譲ります</p>
+                <p class="section_product-text">小さすぎるので処分します。サブとして利用することをお勧めします。</p>
+                <span class="section_category-name"><i class="far fa-folder" aria-hidden="true"></i> 家電</span>
+            </div>
+            <div class="section">
+                <img src="img/item002.jpeg" alt="" class="section_img">
+                <p class="section_product-name">マウンテンバイク譲ります</p>
+                <p class="section_product-text">新調したため譲り先を探しています。まだまだ乗れます！</p>
+                <span class="section_category-name"><i class="far fa-folder" aria-hidden="true"></i> 自転車</span>
+            </div>
+        </div>
+        <div class="news">
+            <div class="section">
+                <img src="img/item004.jpeg" alt="" class="section_img">
+                <p class="section_product-name">ソファ譲ります</p>
+                <p class="section_product-text">引っ越しに際し不要になりました。引き取り手を探しております。お気軽にご相談ください♪</p>
+                <span class="section_category-name"><i class="far fa-folder" aria-hidden="true"></i> 家具</span>
+            </div>
+            <div class="section">
+                <img src="img/item005.jpeg" alt="" class="section_img">
+                <p class="section_product-name">iPhone 8譲ります</p>
+                <p class="section_product-text">型落ちのiphoneをお譲りします。</p>
+                <span class="section_category-name"><i class="far fa-folder" aria-hidden="true"></i> 携帯/スマートフォン</span>
+            </div>
+            <div class="section">
+                <img src="img/item006.jpeg" alt="" class="section_img">
+                <p class="section_product-name">通勤用バッグ譲ります</p>
+                <p class="section_product-text">新調したため譲り先を探しています。使用済みなので神経質な方はご利用をお控えください。</p>
+                <span class="section_category-name"><i class="far fa-folder" aria-hidden="true"></i> バッグ</span>
+            </div>
+        </div>
+        <div class="pagination">
+            <ul class="pagination_list">
+                <li class="pagination_list-item">前</li>
+                <li class="pagination_list-item">1</li>
+                <li class="pagination_list-item">2</li>
+                <li class="pagination_list-item">3</li>
+                <li class="pagination_list-item">次</li>
+            </ul>
+        </div>
+        <h3 class="categories_title"><i class="fas fa-external-link-alt"></i> カテゴリ</h3>
+        <div class="categories_list">
+            <div class="categories_list1">
+                <ul class="categories_list-item">
+                    <li>家具</li>
+                    <li>家電</li>
+                    <li>自転車</li>
+                    <li>車のパーツ</li>
+                    <li>バイク</li>
+                    <li>楽器</li>
+                    <li>チケット</li>
+                    <li>生活雑貨</li>
+                    <li>子ども用品</li>
+                    <li>おもちゃ</li>
+                    <li>スポーツ</li>
+                </ul>
+            </div>
+            <div class="categories_list2">
+                <ul class="categories_list-item">
+                    <li>パソコン</li>
+                    <li>携帯/スマートフォン</li>
+                    <li>本/雑誌</li>
+                    <li>CD/DVD/BD</li>
+                    <li>服</li>
+                    <li>バッグ</li>
+                    <li>コスメ/ヘルスケア</li>
+                    <li>食品</li>
+                    <li>喫煙具</li>
+                    <li>お酒</li>
+                    <li>その他</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main_menu">
+        <h3 class="main_menu-title"><i class="far fa-edit"></i> 会員メニュー</h3>
+        <div class="menuArea">
+            <ul class="menuArea_list">
+                <li><a href="mypage.html">マイページトップ</a></li>
+                <li><a href="mypage_info.html">登録情報確認・変更</a></li>
+                <li><a href="trade_list.html">出品履歴一覧</a></li>
+                <li><a href="bid_list.html">引取履歴一覧</a></li>
+                <li><a href="talk_list.html">トーク履歴一覧</a></li>
+                <li><a href="withdrawal.html">退会</a></li>
+            </ul>
+        </div>
+        <h3 class="main_menu-title"><i class="far fa-edit"></i> その他</h3>
+        <div class="menuArea">
+            <ul class="menuArea_list">
+                <li><a href="news_list.html">お知らせ</a></li>
+                <li><a href="aboutsite.html">当サイトについて</a></li>
+                <li><a href="faq.html">よくある質問</a></li>
+                <li><a href="mailform.html">お問合せ</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <p class="footer_text">&copy; ロケッティ All Rights Reserved.</p>
+</div>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="src/app.js"></script>
+</body>
+</html>

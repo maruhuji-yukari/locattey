@@ -6,64 +6,6 @@ $(function () {
     });
 });
 
-//画像アップロード 出品画面用
-
-// //「ドラッグ&ドロップ」の範囲に画像を持ってきて、その画像を表示させる
-// //dragoverイベントはファイルがターゲット上にドラッグされた時に、dropイベントはドロップされた際に発火する
-// //今回であればドラッグした時に余計なイベントが起きないように制御いている
-//
-// let obj = $('.js-trigger-label');
-// obj.on('dragenter',function(e){
-//    e.stopPropagation();
-//    e.preventDefault();
-// });
-//
-// //dragoverイベントはファイルがターゲット上にドラッグされた時に発火する
-// obj.on('dragover',function(e){
-//     e.stopPropagation();
-//     e.preventDefault();
-// });
-//
-// //dropイベントはドロップされた際に発火する
-// //参考url https://blog.webcreativepark.net/2013/12/08-172957.html
-//
-// obj.on('drop',function (e) {
-//     $(this).removeClass('register_label-file').addClass('register_label-file-active');
-//     let files = e.originalEvent.dataTransfer.files;
-//
-//     handleFileUpload(files,obj);
-// });
-//
-// //範囲外でマウスを外すと画像別画面で開くので、これを防ぐ
-//
-// $(document).on('dragenter',function (e) {
-//     e.stopPropagation();
-//     e.preventDefault();
-// });
-//
-// $(document).on('dragover',function (e) {
-//     e.stopPropagation();
-//     e.preventDefault();
-//     $(this).removeClass('register_label-file').addClass('register_label-file-active');
-// });
-//
-// $(document).on('drop',function (e) {
-//     e.stopPropagation();
-//     e.preventDefault();
-// });
-//
-// //ファイルがドロップされた時にHTML5のFormData()を使ってファイルの中身を読み込み
-//
-// function handleFileUpload(files,obj) {
-//     for( let i = 0; i <files.length; i++ ){
-//         let fd = new FormData();
-//         fd.append('file',files[i]);
-//
-//         let status = new createStatusbar(obj);
-//         status.setFileNameSize
-//     }
-// }
-
 //footer固定
 $(function(){
     var $ftr = $('.footer');
