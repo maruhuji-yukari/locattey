@@ -58,7 +58,7 @@ return [
         'string' => ':attribute は:value 文字以上である必要があります。',
         'array' => ':attribute には:value アイテム以上が必要です。',
     ],
-    'image' => ':attribute は画像でなければなりません。',
+    'img' => ':attribute は画像でなければなりません。',
     'in' => '選択された:attribute は無効です。',
     'in_array' => ':attribute フィールドは:other に存在しません。',
     'integer' => ':attribute は整数でなければなりません。',
