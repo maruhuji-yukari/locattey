@@ -2,33 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57c71d65-ed3c-4f0c-8c9d-f72c1b79b759" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../locattey/resources/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locattey/resources/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locattey/resources/js/app2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locattey/resources/js/components/ExampleComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locattey/resources/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locattey/resources/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locattey/resources/lang/ja/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locattey/resources/views/components/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locattey/resources/views/components/head.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locattey/resources/views/components/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locattey/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/public/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/public/img/icon-women.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/public/img/icon_men.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/public/img/iconrensyu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/public/img/item001.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/public/img/item002.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/public/img/item003.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/public/img/item004.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/public/img/item005.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/public/img/item006.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/public/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/_login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/auth/_login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/auth/_register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/layouts/category_list.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/layouts/common.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/layouts/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/layouts/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/layouts/main_menu.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/layouts/menu.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/layouts/navi.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/member/mypage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/database/seeds/ProductsSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/database/seeds/ProductsSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/lang/ja/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/lang/ja/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon-women.png" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey/resources/image/icon-women.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon_men.png" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey/resources/image/icon_men.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/画面遷移図一覧.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/画面遷移図一覧.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypage.html" beforeDir="false" afterPath="$PROJECT_DIR$/mypage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +98,8 @@
       <workItem from="1591364311310" duration="20000" />
       <workItem from="1591431798317" duration="887000" />
       <workItem from="1591434095655" duration="423000" />
+      <workItem from="1591505001173" duration="2915000" />
+      <workItem from="1591520134407" duration="171000" />
     </task>
     <servers />
   </component>

@@ -1,73 +1,39 @@
-@extends('layouts.app')
+@extends('layouts.common')
 
-@section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+@section('page_title','ログイン')
 
-                <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}">
-                        @csrf
+@include('layouts.header')
 
-                        <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+@include('layouts.menu')
 
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+@include('layouts.navi')
 
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
-
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <div class="col-md-6 offset-md-4">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-
-                                    <label class="form-check-label" for="remember">
-                                        {{ __('Remember Me') }}
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Login') }}
-                                </button>
-
-                                @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+@section('section_title','ログイン')
+@section('main_content')
+  <form action="{{ route('login') }}" method="post" class="register_form">
+      @csrf
+        <div class="errorMsg">
+            <ul>
+                <li>ここにエラーメッセージ表示</li>
+                <li>ここにエラーメッセージ表示</li>
+            </ul>
         </div>
+        <label for="email" class="register_label">メールアドレス:</label>
+        <input type="email" id="email" name="email" class="register_input" placeholder="メールアドレス">
+
+        <label for="password" class="register_label">パスワード(6文字以上):</label>
+        <input type="text" id="password" name="password" class="register_input" placeholder="パスワード">
+
+        <input type="submit" class="register_submit" value="ログイン">
+    </form>
+    <div class="msg_link">
+        <ul>
+            <li>会員登録がお済みで無い方は<a href="{{ route('register') }}">こちら</a></li>
+            <li>パスワードを紛失された方は再発行してください。>><a href="reissue.html">再発行ページ</a>へ</li>
+        </ul>
     </div>
-</div>
 @endsection
+
+@include('layouts.main_menu')
+
+@include('layouts.footer')

@@ -18,7 +18,7 @@ class ProductsSeeder extends Seeder
             'category_id'=>'1',
             'users_id'=>'1',
             'trade_flag'=>'0',
-            'product_image1'=>'resources/image/noimage.jpg',
+            'product_image1'=>'resources/img/noimage.jpg',
         ]);
     }
 }
