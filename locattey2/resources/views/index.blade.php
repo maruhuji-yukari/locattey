@@ -60,7 +60,7 @@
             </ul>
         </div>
 
-        <h3 class="main_title"><i class="fas fa-external-link-alt"></i> カテゴリ</h3>
+        <h3 class="main_title"><i class="fas fa-external-link-alt"></i> {{ __('Category') }}</h3>
         @include('layouts.category_list')
 
 @endsection

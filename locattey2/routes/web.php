@@ -15,13 +15,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('top');
+    return view('index');
 });
 
 Auth::routes();
 
-//Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('/','ProductsController@index')->name('top');
+Route::get('register','Auth\RegisterController@showRegistrationForm')->name('register');
+Route::post('register','Auth\RegisterController@register')->name('register');
 
+Route::get('login','Auth\LoginController@showLoginForm')->name('login');
+Route::post('login','Auth\LoginController@login')->name('login');
 
+Route::get('logout', 'Auth\LoginController@logout')->name('logout');
+
+Route::get('/member/mypage','Member\MypageController@index')->name('mypage');

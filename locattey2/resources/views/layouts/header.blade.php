@@ -1,7 +1,7 @@
 @section('header')
     <header class="header">
         <div class="titleArea">
-            <h1 class="header_title"><a href="{{ route('top') }}">Locattey</a></h1>
+            <h1 class="header_title"><a href="{{ route('home') }}">Locattey</a></h1>
             <h2 class="header_subtitle">あなたの大切な宝物は誰かにとっても大切な宝物。宝物同士を交換しよう。</h2>
         </div>
         <div class="searchArea">

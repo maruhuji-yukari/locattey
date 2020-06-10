@@ -1,7 +1,7 @@
 @charset "UTF-8";
 html, body {
   font-size: 16px;
-  background: #efefef;
+  background: #d6d6d6;
   color: #3c3c3c;
   line-height: 1.6rem;
   letter-spacing: 0.1rem;
@@ -405,7 +405,7 @@ ul {
     color: #3c3c3c;
     padding: 5px 5px 5px 40px;
     box-sizing: border-box;
-    background: #efefef;
+    background: #f7f7f7;
     box-shadow: 2px 2px #777777;
     border: none;
     border-radius: 5px; }
@@ -619,7 +619,7 @@ ul {
     padding-left: 10px;
     box-sizing: border-box;
     border: none;
-    background: #efefef;
+    background: #f7f7f7;
     border-radius: 5px;
     box-shadow: 2px 2px #777777; }
   .register_submit {
@@ -778,7 +778,7 @@ input[type=checkbox]:checked + label:before {
   padding-left: 10px;
   box-sizing: border-box;
   border: none;
-  background: #bfbfbf;
+  background: #f7f7f7;
   border-radius: 5px;
   box-shadow: 2px 2px #777777; }
   @media screen and (max-width: 414px) {
@@ -1195,3 +1195,8 @@ input[type=checkbox]:checked + label:before {
   @media screen and (max-width: 768px) {
     .main-menu {
       width: 100%; } }
+
+.is-invalid{
+    background: #ffdace;
+    border: 1px solid #ef463e;
+}
