@@ -1,45 +1,18 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/092d431054.js" crossorigin="anonymous"></script>
-    <title>マイページ | ロケッティ</title>
-</head>
-<body>
+@extends('layouts.common')
 
-<div class="header">
-    <div class="titleArea">
-        <h1 class="header_title"><a href="top.html">ロケッティ</a></h1>
-        <h2 class="header_subtitle">要らないものをみんなで交換するサイト</h2>
-    </div>
-    <div class="searchArea">
-        <!--        <form action="" class="searchArea_form">-->
-        <!--            <input type="text" class="searchArea_input" name="search_word"><i class="searchArea_icon fas fa-search"></i>-->
-        <!--            <input type="submit" class="searchArea_submit">-->
-        <!--        </form>-->
-    </div>
-</div>
-<div class="menu-trigger js-toggle-sp-menu">
-    <span></span>
-    <span></span>
-    <span></span>
-</div>
-<div class="nav-menu js-toggle-sp-menu-target">
-    <ul class="nav-menu_list js-toggle-sp-menu-target">
-        <li class="nav-menu_item"><a href="top.html" class="nav-menu_link"><span>TOP</span></a></li>
-        <li class="nav-menu_item"><a href="news_list.html" class="nav-menu_link"><span>お知らせ</span></a></li>
-        <li class="nav-menu_item"><a href="trade_register.html" class="nav-menu_link"><span>出品したい</span></a></li>
-        <li class="nav-menu_item"><a href="register.html" class="nav-menu_link"><span>新規登録</span></a></li>
-        <li class="nav-menu_item"><a href="login.html" class="nav-menu_link"><span>ログイン</span></a></li>
-    </ul>
-</div>
-<div class="main">
-    <div class="main_content">
-        <h3 class="main_title-mypage"><i class="fas fa-external-link-alt" aria-hidden="true"></i> マイページ</h3>
-        <h4 class="main_log-title">最新トーク履歴</h4>
+@section('page_title','マイページ')
+
+@include('layouts.header')
+
+@include('layouts.menu')
+
+@include('layouts.navi')
+
+    @section('section_title','マイページ')
+    @section('main_content')
+        <h4 class="main_log-title">{{ __('New_TalkLog') }}</h4>
+
+        <!--トークログ-->
         <div class="main_message-log">
             <div class="main_message-section">
                 <!--出品者-->
@@ -48,12 +21,12 @@
                         <p class="exhibitorMsg-text">かしこまりました。ご都合の空いている日時はお決まりですか?</p>
                         <p class="exhibitorMsg-info">[2] 出品者: zundakosan 2020/05/29 13:04</p>
                     </div>
-                    <img src="img/icon-women.png" alt="" class="icon-mini">
+                    <img src="{{ asset('./img/icon-women.png') }}" alt="" class="icon-mini">
                 </div>
                 <!--出品者-->
                 <!--希望者-->
                 <div class="buyerMsg-wrap">
-                    <img src="img/icon_men.png" alt="" class="icon-mini">
+                    <img src="{{ asset('./img/icon_men.png') }}" alt="" class="icon-mini">
                     <div class="buyerMsg">
                         <p class="buyerMsg-text">譲っていただきたいです。ご検討お願いします。</p>
                         <p class="buyerMsg-info">[1] 引取希望者: 菊池 2020/05/29 13:00</p>
@@ -67,28 +40,27 @@
         <div class="news">
             <div class="section">
                 <span class="continuing_icon">出品中</span>
-                <img src="img/item001.jpeg" alt="" class="section_img">
+                <img src="{{asset('./img/item001.jpeg')}}" alt="" class="section_img">
                 <p class="section_product-name">トースト譲ります</p>
                 <p class="section_product-text">パンを食べる機会がなくなりました。引き取り手を探しています。</p>
                 <span class="section_category-name"><i class="far fa-folder" aria-hidden="true"></i> 家電</span>
             </div>
             <div class="section">
                 <span class="finished_icon">引渡済</span>
-                <img src="img/item003.jpeg" alt="" class="section_img">
+                <img src="{{asset('./img/item003.jpeg')}}" alt="" class="section_img">
                 <p class="section_product-name">18型テレビ譲ります</p>
                 <p class="section_product-text">小さすぎるので処分します。サブとして利用することをお勧めします。</p>
                 <span class="section_category-name"><i class="far fa-folder" aria-hidden="true"></i> 家電</span>
             </div>
             <div class="section">
                 <span class="finished_icon">引渡済</span>
-                <img src="img/item002.jpeg" alt="" class="section_img">
+                <img src="{{asset('./img/item002.jpeg')}}" alt="" class="section_img">
                 <p class="section_product-name">マウンテンバイク譲ります</p>
                 <p class="section_product-text">新調したため譲り先を探しています。まだまだ乗れます！</p>
                 <span class="section_category-name"><i class="far fa-folder" aria-hidden="true"></i> 自転車</span>
             </div>
         </div>
         <p class="msg_link3"><a href="trade_list.html">出品履歴一覧</a></p>
-
         <h4 class="main_log-title">最新お気に入り登録履歴</h4>
         <div class="main_content">
             <ul class="talk-list_list">
@@ -98,35 +70,7 @@
                 <li><span class="finished_icon-s">引渡済</span> 通勤用バッグをお譲りします</li>
             </ul>
         </div>
-    </div>
-    <div class="main_menu">
-        <h3 class="main_menu-title"><i class="far fa-edit"></i> 会員メニュー</h3>
-        <div class="menuArea">
-            <ul class="menuArea_list">
-                <li><a href="mypage.html">マイページトップ</a></li>
-                <li><a href="mypage_info.html">登録情報確認・変更</a></li>
-                <li><a href="trade_list.html">出品履歴一覧</a></li>
-                <li><a href="bid_list.html">引取履歴一覧</a></li>
-                <li><a href="talk_list.html">トーク履歴一覧</a></li>
-                <li><a href="withdrawal.html">退会</a></li>
-            </ul>
-        </div>
-        <h3 class="main_menu-title"><i class="far fa-edit"></i> その他</h3>
-        <div class="menuArea">
-            <ul class="menuArea_list">
-                <li><a href="news_list.html">お知らせ</a></li>
-                <li><a href="aboutsite.html">当サイトについて</a></li>
-                <li><a href="faq.html">よくある質問</a></li>
-                <li><a href="mailform.html">お問合せ</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-<div class="footer">
-    <p class="footer_text">&copy; ロケッティ All Rights Reserved.</p>
-</div>
+    @endsection
+@include('layouts.main_menu')
 
-<script src="node_modules/jquery/dist/jquery.js"></script>
-<script src="src/app.js"></script>
-</body>
-</html>
+@include('layouts.footer')
