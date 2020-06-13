@@ -20,7 +20,7 @@ $(function(){
 
     //変数
     let dropArea = $('.area_drop');
-    let fileInput = $('.input-file');
+    let fileInput = $('.js-input-file');
 
     //dragoverイベントはファイルがターゲット上にドラッグされた時に発火する
     dropArea.on('dragover',function (e) {

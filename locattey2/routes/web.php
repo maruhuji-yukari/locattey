@@ -32,5 +32,5 @@ Route::get('logout', 'Auth\LoginController@logout')->name('logout');
 
 Route::get('/member/mypage','Member\MypageController@index')->name('mypage');
 
-Route::get('/member/trade_register','Member\MypageController@new')->name('trade_register');
-Route::post('/member/trade_register/new','Member\MypageController@create')->name('trade_register-new');
+Route::get('/member/trade_register','Member\MypageController@new')->name('register_trade');
+Route::post('/member/trade_register/new','Member\MypageController@create')->name('register_trade-new');

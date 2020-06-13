@@ -662,8 +662,8 @@ ul {
     opacity: 0; }
     .register_file-wrap {
       display: flex;
-      justify-content: center;
-      align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
       overflow: hidden; }
     .register_file-text {
       font-size: 14px;
