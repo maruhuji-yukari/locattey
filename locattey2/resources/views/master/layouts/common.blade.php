@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="wrap">
-    <h1>@yield('page_title')</h1>
+
     @yield('main')
 </div>
 </body>

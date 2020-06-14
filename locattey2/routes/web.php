@@ -20,8 +20,13 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/master','Master\HomeController@index')->name('master_index');
+//管理人用画面
+Route::get('/master/home','Master\HomeController@index')->name('master_home');
+Route::get('master/login','Master\HomeController@loginView')->name('master_loginView');
+Route::post('master/login','Master\HomeController@login')->name('master_login');
 
+
+//メイン
 Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('register','Auth\RegisterController@showRegistrationForm')->name('register');

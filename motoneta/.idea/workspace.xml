@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57c71d65-ed3c-4f0c-8c9d-f72c1b79b759" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/member/trade_register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Member/MypageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Member/MypageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey2/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/layouts/navi.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/layouts/navi.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey2/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/public/css/manage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/sass/manage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/master/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/master/common.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/master/common.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/master/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/master/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +76,7 @@
       <workItem from="1591505001173" duration="2915000" />
       <workItem from="1591520134407" duration="171000" />
       <workItem from="1591873666049" duration="624000" />
+      <workItem from="1592113240887" duration="621000" />
     </task>
     <servers />
   </component>

@@ -46,8 +46,8 @@ class MypageController extends Controller
            }
        }
         //新規登録
-        $problem = new Product();
-        $problem->fill($request->all())->save();
+        $product = new Product();
+        $product->fill($request->all())->save();
         return redirect('/member/mypage')->with('flash_message', __('Registered.'));
     }
 }
