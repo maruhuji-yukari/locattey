@@ -14,42 +14,42 @@ $(function(){
     }
 });
 
-//画像アップロード(webサのを読み解く)
 
-$(function(){
-
+//画像アップロード
     //変数
-    let dropArea = $('.area_drop');
-    let fileInput = $('.js-input-file');
+    let $dropArea = $('.area_drop');
+    let $fileInput = $('.js-input-file');
+    let $text = $('.js-text')
 
     //dragoverイベントはファイルがターゲット上にドラッグされた時に発火する
-    dropArea.on('dragover',function (e) {
+    $dropArea.on('dragover',function (e) {
         e.stopPropagation();
         e.preventDefault();
         $(this).removeClass('register_label-file').addClass('register_label-file-active');
+        $(this).css('color','#efefef');
     });
 
-    dropArea.on('dragleave',function (e) {
+    $dropArea.on('dragleave',function (e) {
         e.stopPropagation();
         e.preventDefault();
         $(this).removeClass('register_label-file-active').addClass('register_label-file');
+        $(this).css('color','#777777');
     });
 
-    fileInput.on('change',function (e) {
-        dropArea.css('border','none');
+    $fileInput.on('change',function (e) {
+        $dropArea.css('border','none');
 
         let file = this.files[0],
-            img = $(this).siblings('.prev-img'),
+            $img = $(this).siblings('.prev-img'),
             fileReader = new FileReader();
 
         fileReader.onload = function (event) {
             //読み込んだ画像データをimgに変換
-            img.attr('src',event.target.result).show();
+            $img.attr('src',event.target.result).show();
         };
 
         fileReader.readAsDataURL(file);
     });
-});
 
 //詳細画面でサムネイル入れ替え
 
