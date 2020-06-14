@@ -10,7 +10,7 @@
                     <li><a href="talk_list.html">トーク履歴一覧</a></li>
                     <li><a href="withdrawal.html">退会</a></li>
                 @else
-                    <li><a href="{{ route('login') }}">{{ __('Login') }}してください</a></li>
+                    <li><a href="{{ route('login') }}">閲覧するには{{ __('Login') }}してください</a></li>
                  @endif
             </ul>
         </div>

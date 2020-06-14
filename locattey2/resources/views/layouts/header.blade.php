@@ -13,3 +13,10 @@
         </div>
     </header>
 @endsection
+
+<!-- フラッシュメッセージ -->
+@if (session('flash_message'))
+    <div class="alert" role="alert">
+        {{ session('flash_message') }}
+    </div>
+@endif
