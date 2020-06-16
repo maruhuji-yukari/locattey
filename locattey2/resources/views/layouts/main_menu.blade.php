@@ -21,6 +21,7 @@
                 <li><a href="aboutsite.html">当サイトについて</a></li>
                 <li><a href="faq.html">よくある質問</a></li>
                 <li><a href="mailform.html">お問合せ</a></li>
+                <li><a href="{{ route('admin_login') }}">管理人メニュー</a></li>
             </ul>
         </div>
 @endsection

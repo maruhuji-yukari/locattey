@@ -1,10 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
+use Illuminate\Auth\Events\Login;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
@@ -21,14 +23,20 @@ class LoginController extends Controller
 
     use AuthenticatesUsers;
 
+    //ログイン試行回数
+    protected $maxAttempts = 3;
+
+    //ログインロックタイム(分)
+    protected $decayMinutes = 10;
+
+
     /**
      * Where to redirect users after login.
      *
      * @var string
      */
     //protected $redirectTo = RouteServiceProvider::HOME;
-    protected $redirectTo = 'member/mypage';
-//    protected $redirectTo = '/';
+    protected $redirectTo = '/admin/index';
 
     /**
      * Create a new controller instance.
@@ -37,8 +45,20 @@ class LoginController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('guest')->except('logout');
+        $this->middleware('admin')->except('logout');
     }
 
+    public function showAdminLoginForm()
+    {
+        return view('admin.login');
+    }
+
+    /**
+     * ログイン後の処理=最終ログイン日時を記録
+     */
+    protected function authenticated(Request $request, $user)
+    {
+        event(new Logined());
+    }
 
 }

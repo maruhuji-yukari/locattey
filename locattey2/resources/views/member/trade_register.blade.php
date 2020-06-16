@@ -45,12 +45,12 @@
         @enderror
 
         <label class="register_label">画像:</label>
-        <p class="uploads_text">画像1は必須です。jpeg,jpg,gif,png形式で5MBまでアップロードできます。</p>
+        <p class="uploads_text">画像1は必須です。jpeg,jpg,gif,png形式で3MBまでアップロードできます。</p>
         <div class="register_file-wrap">
             <label for="product_image1" class="register_label-file area_drop">
                 <span class="register_file-text js-text">画像1</span>
                 <input type="hidden" name="MAX_FILE_SIZE" value="5242880">
-                <input type="file" id="product_image1" name="product_image1" value="register_file" class="register_file js-input-file @error('product_image1') is-invalid @enderror" required multiple>
+                <input type="file" id="product_image1" name="product_image1" value="register_file" class="register_file js-input-file @error('product_image1') is-invalid @enderror" required>
                 <img src="" alt="" class="prev-img">
             </label>
             @error('product_image1')

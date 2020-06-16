@@ -46,6 +46,11 @@ return [
             'provider' => 'users',
             'hash' => false,
         ],
+
+        'Admin' => [
+            'driver' => 'session',
+            'provider' => 'Admin'
+        ]
     ],
 
     /*
@@ -70,6 +75,11 @@ return [
             'driver' => 'eloquent',
             'model' => App\User::class,
         ],
+
+        'Admin' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Admin::class,
+        ]
 
         // 'users' => [
         //     'driver' => 'database',
@@ -99,6 +109,12 @@ return [
             'expire' => 60,
             'throttle' => 60,
         ],
+
+        'Admin' => [
+            'provider' => 'Admin',
+            'table' => 'password_resets',
+            'expire' => 60,
+        ]
     ],
 
     /*

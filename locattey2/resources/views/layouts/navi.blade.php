@@ -9,7 +9,13 @@
                 <li class="nav-menu_item"><a href="{{ route('login') }}" class="nav-menu_link"><span>出品したい</span></a></li>
             @endif
             @if(Auth::check())
-                <li class="nav-menu_item"><a href="{{ route('logout') }}" class="nav-menu_link"><span>ログアウト</span></a></li>
+                <li class="nav-menu_item">
+{{--                    <a href="{{ route('logout') }}" class="nav-menu_link"><span>ログアウト</span></a>--}}
+                    <form action="{{ route('logout') }}" method="POST">
+                        @csrf
+                        <button class="nav-menu_link2"><span>ログアウト</span></button>
+                    </form>
+                </li>
             @else
                 <li class="nav-menu_item"><a href="{{ route('login') }}" class="nav-menu_link"><span>ログイン</span></a></li>
             @endif
