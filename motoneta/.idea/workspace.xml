@@ -2,14 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57c71d65-ed3c-4f0c-8c9d-f72c1b79b759" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../locattey2/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locattey2/public/css/manage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locattey2/resources/sass/manage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/master/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/master/common.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/master/common.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/master/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/master/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/User/Auth/ConfirmPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/User/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/User/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/User/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/User/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/User/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/admin/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/user/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/user/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../locattey2/resources/views/user/old/_home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/app/Categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/app/Models/Categories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Admin/Auth/ConfirmPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Admin/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Admin/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Admin/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Admin/Auth/ResetPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Admin/Auth/VerificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/User/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/Master/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/_HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/app/Http/Controllers/User/_HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/app/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/database/migrations/2020_06_14_154528_create_managers_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/database/seeds/ManagersSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/public/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/public/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/lang/ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/lang/ja.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/_login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/user/old/_login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/auth/_login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/auth/_register.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/auth/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/auth/passwords/email.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/auth/passwords/reset.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/auth/register.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/auth/verify.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/user/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/layouts/category_list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/user/layouts/category_list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/layouts/common.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/user/layouts/common.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/user/layouts/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/user/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/layouts/main_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/user/layouts/main_menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/layouts/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/user/layouts/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/layouts/navi.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/user/layouts/navi.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/master/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/admin/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/master/layouts/common.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/admin/layouts/common.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/master/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/admin/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/master/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/admin/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/member/mypage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/user/auth/member/mypage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/member/trade_register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/user/auth/member/trade_register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/resources/views/user/old/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locattey2/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../locattey2/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +127,7 @@
       <workItem from="1591520134407" duration="171000" />
       <workItem from="1591873666049" duration="624000" />
       <workItem from="1592113240887" duration="621000" />
+      <workItem from="1592485437639" duration="1110000" />
     </task>
     <servers />
   </component>

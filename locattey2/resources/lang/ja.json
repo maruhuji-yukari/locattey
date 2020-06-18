@@ -1,8 +1,11 @@
 {
     "Product_name" : "出品タイトル",
     "Category" : "カテゴリー",
-    "Login" : "ログイン成功しました",
-    "Logout" : "ログアウトしました",
+    "Login" : "ログイン",
+    "Login." : "ログインしました",
+    "Logout" : "ログアウト",
+    "Logout." : "ログアウトしました",
     "New_TalkLog" : "最新トーク履歴",
-    "Registered" : "登録しました"
+    "Registered" : "登録しました",
+    "Remember Me" : "パスワードを記憶する"
 }
