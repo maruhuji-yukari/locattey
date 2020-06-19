@@ -8,7 +8,7 @@ use App\Http\Requests\ProductRequest;
 use App\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
 
 class MypageController extends Controller
 {
@@ -23,9 +23,6 @@ class MypageController extends Controller
         $categories = Categories::all();
 
         //一時保存した画像のurl
-
-
-
         return view('member.trade_register',compact('users_id','categories'));
     }
 
@@ -34,15 +31,12 @@ class MypageController extends Controller
 
         //画像アップロード
         //これが元
-        $request->product_image1->storeAs('public/uploads',time().'_1_'.Hash::make('sample').'.jpg');
-//        if($request->hasFile('product_image2')) {
-//            $request->product_image2->storeAs('public/uploads', time() . '_2_' . Hash::make('sample') . '.jpg');
-//        }
+        $request->product_image1->storeAs('public/uploads',time().'_1_'.Str::random(15).'.jpg');
 
        $product_images = [ 'product_image2','product_image3','product_image4','product_image5' ];
        foreach ($product_images as $product_image){
            if($request->hasFile($product_image)){
-               $request->$product_image->storeAs('public/uploads', time() . Hash::make('sample') . '.jpg');
+               $request->$product_image->storeAs('public/uploads', time() . Str::random(15) . '.jpg');
            }
        }
         //新規登録

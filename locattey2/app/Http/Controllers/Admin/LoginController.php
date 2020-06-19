@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\Admin\Auth;
+namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
+use Illuminate\Auth\Events\Login;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
 {
@@ -23,18 +23,20 @@ class LoginController extends Controller
 
     use AuthenticatesUsers;
 
+    //ログイン試行回数
+    protected $maxAttempts = 3;
+
+    //ログインロックタイム(分)
+    protected $decayMinutes = 10;
+
+
     /**
      * Where to redirect users after login.
      *
      * @var string
      */
-<<<<<<< HEAD:locattey2/app/Http/Controllers/Admin/Auth/LoginController.php
-    protected $redirectTo = RouteServiceProvider::ADMIN_HOME;
-=======
     //protected $redirectTo = RouteServiceProvider::HOME;
-    protected $redirectTo = 'member/mypage';
-//    protected $redirectTo = '/';
->>>>>>> master:locattey2/app/Http/Controllers/Auth/LoginController.php
+    protected $redirectTo = '/admin/index';
 
     /**
      * Create a new controller instance.
@@ -43,28 +45,20 @@ class LoginController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('guest:admin')->except('logout');
+        $this->middleware('admin')->except('logout');
     }
 
-    protected function guard()
+    public function showAdminLoginForm()
     {
-        return Auth::guard('admin');
+        return view('admin.login');
     }
 
-    public function showLoginForm()
+    /**
+     * ログイン後の処理=最終ログイン日時を記録
+     */
+    protected function authenticated(Request $request, $user)
     {
-        return view('admin.auth.login');
+        event(new Logined());
     }
 
-    public function logout(Request $request)
-    {
-        Auth::guard('admin')->logout();
-
-        return $this->loggedOut($request);
-    }
-
-    public function loggedOut(Request $request)
-    {
-        return redirect(route('admin.login'));
-    }
 }

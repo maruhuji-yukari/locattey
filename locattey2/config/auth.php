@@ -49,11 +49,18 @@ return [
             'hash' => false,
         ],
 
+<<<<<<< HEAD
         'admin' => [
             'driver' => 'session',
             'provider' => 'admins',
             'hash'=> false,
         ],
+=======
+        'Admin' => [
+            'driver' => 'session',
+            'provider' => 'Admin'
+        ]
+>>>>>>> master
     ],
 
     /*
@@ -78,6 +85,11 @@ return [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
         ],
+
+        'Admin' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Admin::class,
+        ]
 
         // 'users' => [
         //     'driver' => 'database',
@@ -113,12 +125,20 @@ return [
             'throttle' => 60,
         ],
 
+<<<<<<< HEAD
         'admins' => [
             'provider' => 'admins',
             'table' => 'password_resets',
             'expire' => 60,
             'throttle' => 60,
         ],
+=======
+        'Admin' => [
+            'provider' => 'Admin',
+            'table' => 'password_resets',
+            'expire' => 60,
+        ]
+>>>>>>> master
     ],
 
     /*

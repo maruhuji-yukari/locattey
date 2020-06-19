@@ -1,12 +1,18 @@
 <?php
 
+<<<<<<< HEAD
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+=======
+namespace App\Http\Controllers;
+
+>>>>>>> master
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+<<<<<<< HEAD
     /**
      * Display a listing of the resource.
      *
@@ -88,5 +94,15 @@ class HomeController extends Controller
     public function destroy($id)
     {
         //
+=======
+    //コンストラクト
+    public function __construct()
+    {
+        $this->middleware('admin');
+    }
+
+    public function index(){
+        return view('admin.index');
+>>>>>>> master
     }
 }
