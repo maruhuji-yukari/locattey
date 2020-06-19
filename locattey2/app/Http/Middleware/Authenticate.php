@@ -36,6 +36,7 @@
 namespace App\Http\Middleware;
 
 use Illuminate\Auth\Middleware\Authenticate as Middleware;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Route;
 
 class Authenticate extends Middleware
@@ -46,6 +47,18 @@ class Authenticate extends Middleware
 
 
     //ルーティングに応じて未ログイン時のリダイレクト先を振り分ける
+=======
+use Illuminate\Http\Request;
+
+class Authenticate extends Middleware
+{
+    /**
+     * Get the path the user should be redirected to when they are not authenticated.
+     *
+     * @param  Request  $request
+     * @return string|null
+     */
+>>>>>>> master
     protected function redirectTo($request)
     {
 //        if (! $request->expectsJson()) {

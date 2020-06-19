@@ -201,6 +201,13 @@ ul {
       font-size: 14px;
   }
 
+.nav-menu_link2{
+    border: none;
+    background: none;
+    color: #3c3c3c;
+}
+
+
 .icon {
   font-size: 38px;
   position: absolute;
