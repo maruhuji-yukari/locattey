@@ -23,24 +23,8 @@ class LoginController extends Controller
 
     use AuthenticatesUsers;
 
-    /**
-     * Where to redirect users after login.
-     *
-     * @var string
-     */
-<<<<<<< HEAD:locattey2/app/Http/Controllers/Admin/Auth/LoginController.php
     protected $redirectTo = RouteServiceProvider::ADMIN_HOME;
-=======
-    //protected $redirectTo = RouteServiceProvider::HOME;
-    protected $redirectTo = 'member/mypage';
-//    protected $redirectTo = '/';
->>>>>>> master:locattey2/app/Http/Controllers/Auth/LoginController.php
 
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
     public function __construct()
     {
         $this->middleware('guest:admin')->except('logout');

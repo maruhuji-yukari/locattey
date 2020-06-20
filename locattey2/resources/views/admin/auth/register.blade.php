@@ -7,7 +7,7 @@
 @section('main')
     <div class="section">
         <h2 class="section_title">管理人新規登録:</h2>
-        <form action="{{ route('user.register') }}" method="POST" class="form">
+        <form action="{{ route('admin.register') }}" method="POST" class="form">
             @csrf
             <label for="" class="label">ログイン用名前</label>
             <input type="text" name="name" class="input" required placeholder="ログイン用名前">
@@ -34,8 +34,8 @@
             @enderror
 
             <label class="label">ログイン用パスワード(上と同じもの):</label>
-            <input type="password" name="password_confirmation" class="input" required>
-            @error('password_confirmation')
+            <input type="password" name="password-confirm" class="input" required>
+            @error('password-confirm')
             <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
                     </span>

@@ -23,7 +23,7 @@
                 @enderror
 
                 <label for="" class="register_label">パスワード:</label>
-                <input type="password" class="register_input" required placeholder="パスワード">
+                <input type="password" class="register_input" name="password" required placeholder="パスワード">
                 @error('password')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>

@@ -15,8 +15,8 @@
             <form action="{{ route('user.register') }}" class="form">
                 @csrf
                 <label for="" class="register_label">名前:</label>
-                <input type="text" class="register_input" placeholder="名前">
-                @error('email')
+                <input type="text" class="register_input" name="name" placeholder="名前">
+                @error('name')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
                     </span>
@@ -39,8 +39,8 @@
                 @enderror
 
                 <label for="" class="register_label">パスワード(上記と同じもの):</label>
-                <input type="password" class="register_input" name="password_confirmation" required>
-                @error('password_confirmation')
+                <input type="password" class="register_input" name="password-confirm" required>
+                @error('password-confirm')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
                     </span>

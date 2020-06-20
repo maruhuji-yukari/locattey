@@ -25,7 +25,7 @@ class RegisterController extends Controller
     }
 
     //guardの認証方法を指定
-    public function guard()
+    protected function guard()
     {
         return Auth::guard('user');
     }
@@ -46,16 +46,6 @@ class RegisterController extends Controller
         ]);
     }
 
-<<<<<<< HEAD:locattey2/app/Http/Controllers/User/Auth/RegisterController.php
-
-=======
-    /**
-     * Create a new user instance after a valid registration.
-     *
-     * @param  array  $data
-     * @return User
-     */
->>>>>>> master:locattey2/app/Http/Controllers/Auth/RegisterController.php
     protected function create(array $data)
     {
         return User::create([
